@@ -10,6 +10,8 @@
 		962355D229376C6E00D96CF8 /* WardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962355D129376C6E00D96CF8 /* WardViewController.swift */; };
 		962355D629376EBF00D96CF8 /* Ward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962355D529376EBF00D96CF8 /* Ward.swift */; };
 		962355DA29376F5300D96CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962355D929376F5300D96CF8 /* ViewController.swift */; };
+		964AD26F2938D9C200302259 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964AD26E2938D9C200302259 /* Door.swift */; };
+		964AD27B2938F17A00302259 /* DoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964AD27A2938F17A00302259 /* DoorViewController.swift */; };
 		96FAEBDC292E4FBB00F9A7E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAEBDB292E4FBB00F9A7E8 /* AppDelegate.swift */; };
 		96FAEBDE292E4FBB00F9A7E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAEBDD292E4FBB00F9A7E8 /* SceneDelegate.swift */; };
 		96FAEBE3292E4FBB00F9A7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FAEBE1292E4FBB00F9A7E8 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		962355D129376C6E00D96CF8 /* WardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardViewController.swift; sourceTree = "<group>"; };
 		962355D529376EBF00D96CF8 /* Ward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ward.swift; sourceTree = "<group>"; };
 		962355D929376F5300D96CF8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		964AD26E2938D9C200302259 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		964AD27A2938F17A00302259 /* DoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorViewController.swift; sourceTree = "<group>"; };
 		96FAEBD8292E4FBB00F9A7E8 /* prjct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prjct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FAEBDB292E4FBB00F9A7E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FAEBDD292E4FBB00F9A7E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				96FAEBE9292E4FBF00F9A7E8 /* Info.plist */,
 				962355D129376C6E00D96CF8 /* WardViewController.swift */,
 				962355D529376EBF00D96CF8 /* Ward.swift */,
+				964AD27A2938F17A00302259 /* DoorViewController.swift */,
+				964AD26E2938D9C200302259 /* Door.swift */,
 			);
 			path = prjct;
 			sourceTree = "<group>";
@@ -143,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964AD27B2938F17A00302259 /* DoorViewController.swift in Sources */,
 				962355DA29376F5300D96CF8 /* ViewController.swift in Sources */,
 				962355D629376EBF00D96CF8 /* Ward.swift in Sources */,
 				962355D229376C6E00D96CF8 /* WardViewController.swift in Sources */,
+				964AD26F2938D9C200302259 /* Door.swift in Sources */,
 				96FAEBDC292E4FBB00F9A7E8 /* AppDelegate.swift in Sources */,
 				96FAEBDE292E4FBB00F9A7E8 /* SceneDelegate.swift in Sources */,
 			);
