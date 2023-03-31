@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D40F1C32992827400908F3F /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D40F1C22992827400908F3F /* CustomSegmentedControl.swift */; };
 		962355D629376EBF00D96CF8 /* Ward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962355D529376EBF00D96CF8 /* Ward.swift */; };
 		962355DA29376F5300D96CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962355D929376F5300D96CF8 /* ViewController.swift */; };
 		962D1764294A01700087F5A0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D1762294A01700087F5A0 /* HeaderView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D40F1C22992827400908F3F /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 		962355D529376EBF00D96CF8 /* Ward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ward.swift; sourceTree = "<group>"; };
 		962355D929376F5300D96CF8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		962D1762294A01700087F5A0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				964AD26E2938D9C200302259 /* Door.swift */,
 				962D1762294A01700087F5A0 /* HeaderView.swift */,
 				962D1763294A01700087F5A0 /* HeaderView.xib */,
+				6D40F1C22992827400908F3F /* CustomSegmentedControl.swift */,
 				9640BA94294B874600507F9E /* Fonts */,
 			);
 			path = prjct;
@@ -181,6 +184,7 @@
 				962355D629376EBF00D96CF8 /* Ward.swift in Sources */,
 				964AD26F2938D9C200302259 /* Door.swift in Sources */,
 				969FE558293E447200D58659 /* MyCell.swift in Sources */,
+				6D40F1C32992827400908F3F /* CustomSegmentedControl.swift in Sources */,
 				96FAEBDC292E4FBB00F9A7E8 /* AppDelegate.swift in Sources */,
 				96FAEBDE292E4FBB00F9A7E8 /* SceneDelegate.swift in Sources */,
 				962D1764294A01700087F5A0 /* HeaderView.swift in Sources */,

@@ -7,24 +7,27 @@
 
 import Foundation
 
-struct CameraResponse: Codable {                     // For segment "Cameras"
-    var data: Data?
+struct CameraResponse: Codable {
+    var data: Data
     var success: Bool
 }
 
 struct Data: Codable {
-    var cameras: [Camera?]
-    var room: [Room?]
-    }
+    var cameras: [Item]
+    var room: [String]
+}
 
 struct Room: Codable {
 }
 
-struct Camera: Codable {
+struct Item: Codable {
     var name: String?
     var snapshot: String?
     var room: String?
-    var id: Int?
-    var favorites: Bool?
-    var rec: Bool?
+    var id: Int = 0
+    var favorites: Bool = false
+    var rec: Bool? = false
+    var lock: Bool? = true
+    var hideCell: Bool? = false
+
 }
